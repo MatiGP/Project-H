@@ -10,10 +10,13 @@ public class GameApp : MonoBehaviour
 {
     public static GameApp Instance = null;
 
+    public LevelLoader LevelLoader => _levelLoader;
+    
     [SerializeField] private UIManager _uiManager = null;
     [SerializeField] private EAppState _startingState = EAppState.Intro;
 
     private StateMachine _menuStateMachine = null;
+    private LevelLoader _levelLoader = null;
     
     private void Awake()
     {
@@ -26,8 +29,9 @@ public class GameApp : MonoBehaviour
     private void InitializeSubSystems()
     {
         _menuStateMachine = new StateMachine();
-        _menuStateMachine.Initialize();
+        _levelLoader = new LevelLoader();
         
+        _menuStateMachine.Initialize();
         _uiManager.Initialize();
     }
 

@@ -6,6 +6,8 @@ namespace Core.StateMachine.States
 {
     public class GameState : BaseState
     {
+        private StateMachine _gameStateMachine = null;
+        
         public GameState(int id, StateMachine stateMachine) : base(id, stateMachine)
         {
         }
@@ -13,21 +15,26 @@ namespace Core.StateMachine.States
         public override void Enter()
         {
             Debug.Log($"Entered {typeof(GameState)}");
+            _gameStateMachine = new StateMachine();
+            _gameStateMachine.Initialize();
+            _gameStateMachine.AddState(new AdventureState((int)EGameState.Adventure, _gameStateMachine));
+            _gameStateMachine.AddState(new BattleState((int)EGameState.Battle, _gameStateMachine));
+            _gameStateMachine.SwitchToState((int)EGameState.Battle);
         }
 
         public override void Update()
         {
-            throw new System.NotImplementedException();
+            _gameStateMachine.UpdateState();
         }
 
         public override void FixedUpdate()
         {
-            throw new System.NotImplementedException();
+            _gameStateMachine.FixedUpdateState();
         }
 
         public override void Exit()
         {
-            throw new System.NotImplementedException();
+            _gameStateMachine.LeaveState();
         }
     }
 }

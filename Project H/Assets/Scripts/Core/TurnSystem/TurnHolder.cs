@@ -1,35 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
+using Core.Combat.Unit;
 using UnityEngine;
-
-public class TurnHolder<T> where T : Object
+namespace Core.Combat
 {
-    private List<T> _turns = new List<T>();
-
-    public void AddTurn(T unit)
+    public class TurnHolder<T> where T : GameUnit
     {
-        _turns.Add(unit);
-    }
+        private List<T> _turns = new List<T>();
 
-    public T PeekTurn(int turnIndex)
-    {
-        if (IsTurnIndexValid(turnIndex))
+        public void AddTurn(T unit)
         {
-            return _turns[turnIndex];
+            _turns.Add(unit);
         }
-        else
+
+        public T PeekTurn(int turnIndex)
         {
-            return null;
+            if (IsTurnIndexValid(turnIndex))
+            {
+                return _turns[turnIndex];
+            }
+            else
+            {
+                return null;
+            }
         }
-    }
 
-    public void RemoveFromTurn(T unit)
-    {
-        _turns.Remove(unit);
-    }
+        public void RemoveFromTurn(T unit)
+        {
+            _turns.Remove(unit);
+        }
 
-    private bool IsTurnIndexValid(int index)
-    {
-        return index >= 0 && index < _turns.Count;
+        private bool IsTurnIndexValid(int index)
+        {
+            return index >= 0 && index < _turns.Count;
+        }
     }
 }

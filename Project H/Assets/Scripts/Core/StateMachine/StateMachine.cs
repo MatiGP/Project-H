@@ -56,5 +56,13 @@ namespace Core.StateMachine
                 _currentState.FixedUpdate();
             }
         }
+
+        public void LeaveState()
+        {
+            if (_currentState != null)
+            {
+                _currentState.Exit();
+            }
+        }
     }
 }

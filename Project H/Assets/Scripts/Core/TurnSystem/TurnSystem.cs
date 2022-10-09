@@ -11,5 +11,15 @@ namespace Core.TurnSystem
         public event Action OnTurnEnd;
 
         public abstract void Initialize();
+
+        public virtual void EndTurn()
+        {
+            OnTurnEnd?.Invoke();
+        }
+
+        public virtual void StartTurn()
+        {
+            OnTurnStart?.Invoke();
+        }
     }
 }
