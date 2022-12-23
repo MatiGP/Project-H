@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bb45ea262d02d64799f21cf7546b8f1, type: 3}
+  m_Name: Ninja
+  m_EditorClassIdentifier: 
+  _icon: {fileID: 21300000, guid: 047687fc6e25634478ccf3a691c1e443, type: 3}
+  _name: Ninja
+  _hp: 5
+  _atc: 50
+  _def: 1
+  _mana: 1
+  _speed: 9
+  _prio: 9
