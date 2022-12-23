@@ -25,4 +25,18 @@ public class LevelLoader
             Debug.LogError("SCENE NAME DOES NOT EXIST. CHECK DICTIONARY + BUILD SETTINGS");
         }
     }
+
+    public void UnLoadLevel(ESceneName sceneName)
+    {
+        if (SCENE_NAMES.ContainsKey(sceneName))
+        {
+            SceneManager.UnloadSceneAsync(SCENE_NAMES[sceneName]);     
+        }
+        else
+        {
+            Debug.LogError("SCENE NAME DOES NOT EXIST. CHECK DICTIONARY + BUILD SETTINGS");
+        }
+    }
+    
+    
 }

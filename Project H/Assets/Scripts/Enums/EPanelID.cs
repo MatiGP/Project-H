@@ -6,5 +6,6 @@ public enum EPanelID
 {
     None = -1,
     SplashScreen = 0,
-    MainMenu = 1
+    MainMenu = 1,
+    TacticMode = 2
 }

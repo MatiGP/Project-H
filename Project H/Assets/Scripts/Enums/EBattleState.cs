@@ -1,6 +1,7 @@
 public enum EBattleState
 {
-    Tactic = 0,
-    Battle = 1,
-    End = 2
+    Preparation = 0,
+    Tactic = 1,
+    Battle = 2,
+    End = 3
 }

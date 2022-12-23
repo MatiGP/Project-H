@@ -13,7 +13,7 @@ namespace ScriptableObjects
         public int Mana => _mana;
         public int Speed => _speed;
         public int Prio => _prio;
-
+        
         [SerializeField] private int _hp = -1;
         [SerializeField] private int _atc = -1;
         [SerializeField] private int _def = -1;
