@@ -43,7 +43,7 @@ namespace Core.StateMachine.States
             _battleStateMachine.AddState(new TacticState((int)EBattleState.Tactic, _battleStateMachine));
             _battleStateMachine.AddState(new TurnBattleState((int)EBattleState.Battle, _battleStateMachine));
             _battleStateMachine.AddState(new EndBattleState((int)EBattleState.End, _battleStateMachine));
-            _battleStateMachine.SwitchToState((int)EBattleState.Tactic);
+            _battleStateMachine.SwitchToState((int)EBattleState.Preparation);
         }
     }
 }

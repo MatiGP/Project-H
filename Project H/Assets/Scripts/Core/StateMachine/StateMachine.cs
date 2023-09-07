@@ -25,14 +25,9 @@ namespace Core.StateMachine
         {
             if (_availableStates.ContainsKey(id))
             {
-                if (_currentState != null)
-                {
-                    _currentState.Exit();
-                    _currentState = null;
-                   
-                }
-                
+                LeaveCurrentState();
                 _currentState = _availableStates[id];
+                Debug.Log($"ENTERING STATE: {_currentState.GetType()}");
                 _currentState.Enter();
             }
             else
@@ -57,11 +52,13 @@ namespace Core.StateMachine
             }
         }
 
-        public void LeaveState()
+        public void LeaveCurrentState()
         {
             if (_currentState != null)
             {
+                Debug.Log($"LEAVING STATE: {_currentState.GetType()}");
                 _currentState.Exit();
+                _currentState = null;
             }
         }
     }

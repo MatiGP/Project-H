@@ -5,13 +5,23 @@ using UnityEngine;
 
 namespace ScriptableObjects
 {
-    public class UnitDataProvider : MonoBehaviour
+    [CreateAssetMenu(menuName = "ScriptableObjects/UnitDataProvider", fileName = "Unit Data Provider")]
+    public class UnitDataProvider : ScriptableObject
     {
         [SerializeField] private UnitDetails[] _unitDetails = null;
 
-        public UnitDetails GetUnitDetails(string name)
+        public UnitDetails GetUnitDetails(int id)
         {
-            return _unitDetails.FirstOrDefault(unitDetails => unitDetails.Name == name);
+            UnitDetails details = _unitDetails.FirstOrDefault(unitDetails => unitDetails.ID == id);
+
+            if (details)
+            {
+                return details;
+            }
+            
+            Debug.LogError($"UNIT DETAILS WITH ID {id} DOES NOT EXIST. \n" +
+                           $" MAKE SURE DETAILS ARE ADDED TO ARRAY INSIDE UNIT DATA PROVIDER");
+            return _unitDetails[0];
         }
     }
 }

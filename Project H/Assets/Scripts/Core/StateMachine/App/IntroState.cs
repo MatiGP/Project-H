@@ -16,7 +16,6 @@ namespace Core.StateMachine.States
         
         public override void Enter()
         {
-            Debug.Log($"Entered {typeof(IntroState)}");
             _splashScreenPanel = UIManager.Instance.CreatePanel(EPanelID.SplashScreen) as SplashScreenPanel;
             _splashScreenPanel.OnFadeCompleted += HandleSplashCompleted;
         }

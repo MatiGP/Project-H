@@ -16,23 +16,34 @@ namespace Core.StateMachine.States
         
         public override void Enter()
         {
-            Debug.Log($"Entered {typeof(MenuState)}");
             _mainMenuPanel = UIManager.Instance.CreatePanel(EPanelID.MainMenu) as MainMenuPanel;
+            if (_mainMenuPanel)
+            {
+                _mainMenuPanel.OnPlayGame += HandlePlayGame;
+            }
+        }
+
+        private void HandlePlayGame()
+        {
+            _parent.SwitchToState((int)EAppState.Game);
         }
 
         public override void Update()
         {
-            throw new System.NotImplementedException();
         }
 
         public override void FixedUpdate()
         {
-            throw new System.NotImplementedException();
         }
 
         public override void Exit()
         {
-            throw new System.NotImplementedException();
+            if (_mainMenuPanel)
+            {
+                _mainMenuPanel.OnPlayGame -= HandlePlayGame;
+            }
+            
+            _mainMenuPanel.Close();
         }
     }
 }

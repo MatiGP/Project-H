@@ -8,7 +8,7 @@ namespace UI
     [RequireComponent(typeof(CanvasGroup))]
     public abstract class UIPanel : MonoBehaviour
     {
-        public event Action<EPanelID> OnPanelClosed;
+        public Action<EPanelID> OnPanelClosed;
 
         [SerializeField] protected CanvasGroup _canvasGroup = null;
 

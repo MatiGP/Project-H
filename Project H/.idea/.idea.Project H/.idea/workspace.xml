@@ -4,14 +4,96 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8201bd7b-8ade-45eb-8a63-40bc850767c2" name="Changes" comment="" />
+    <list default="true" id="8201bd7b-8ade-45eb-8a63-40bc850767c2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project H/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project H/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/DungeonCharacters/Skeletons_demo/models/Materials/DS_skeleton_standard.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Models/DungeonCharacters/Skeletons_demo/models/Materials/DS_skeleton_standard.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/DungeonCharacters/Skeletons_demo/models/Materials/DemoEquipment.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Models/DungeonCharacters/Skeletons_demo/models/Materials/DemoEquipment.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/Fantasy Monster(wizard) Demo/Materials/ground_for demo.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Models/Fantasy Monster(wizard) Demo/Materials/ground_for demo.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/Fantasy Monster(wizard) Demo/Materials/wizard_01 DEMO.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Models/Fantasy Monster(wizard) Demo/Materials/wizard_01 DEMO.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/Fantasy Monster(wizard) Demo/Materials/wizard_addon_head_01 DEMO.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Models/Fantasy Monster(wizard) Demo/Materials/wizard_addon_head_01 DEMO.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/Fantasy Monster(wizard) Demo/Materials/wizard_weapon_01 DEMO.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Models/Fantasy Monster(wizard) Demo/Materials/wizard_weapon_01 DEMO.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/Toon_RTS/Orc_Demo/model/Materials/Orc_Standard_Units.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Models/Toon_RTS/Orc_Demo/model/Materials/Orc_Standard_Units.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/Toon_RTS/Orc_Demo/model/Materials/Wolf_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ImportedAssets/Models/Toon_RTS/Orc_Demo/model/Materials/Wolf_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/Black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/Black.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/Floor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/Floor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/Ghoul.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/Ghoul.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/Ghoul@Animations.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/Ghoul@Animations.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/GhoulMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/GhoulMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/GhoulScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/GhoulScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/GhoulSceneSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/GhoulSceneSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/Ghoul_Volume4_color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/Ghoul_Volume4_color.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/Ghoul_Volume4_emissive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/Ghoul_Volume4_emissive.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/Ghoul_Volume4_gloss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/Ghoul_Volume4_gloss.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/Ghoul_Volume4_metalness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/Ghoul_Volume4_metalness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/Ghoul_Volume4_nmap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/Ghoul_Volume4_nmap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/PPS_Ghoul.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImportedAssets/Models/_GhoulZombie/PPS_Ghoul.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Units/BattleUnit/TestUnit.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Units/BattleUnit/TestUnit.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Dragon.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Dragon.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Dwarf.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Dwarf.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Ent.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Ent.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Ninja.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Ninja.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Shadow.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Shadow.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Spider.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Spider.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Warrior.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ScriptableObjects/Warrior.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BattleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BattleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GlobalScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GlobalScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Combat/BattleGameUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Combat/BattleGameUnit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Combat/GameUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Combat/GameUnit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Combat/GameUnit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Combat/HeroGameUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Combat/HeroGameUnit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/GameInstanceManager/AdventureModeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/GameInstanceManager/AdventureModeController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/GameInstanceManager/BattleModeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GameInstanceManager/BattleModeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/GameInstanceManager/ModeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/GameInstanceManager/ModeController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/StateMachine/App/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/StateMachine/App/GameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/StateMachine/App/IntroState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/StateMachine/App/IntroState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/StateMachine/App/MenuState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/StateMachine/App/MenuState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/StateMachine/Game/GameBattleState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/StateMachine/Game/GameBattleState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/StateMachine/StateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/StateMachine/StateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/TurnSystem/BattleModeTurnSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/TurnSystem/BattleModeTurnSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/TurnSystem/TurnHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/TurnSystem/TurnHolder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/TurnSystem/TurnSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/TurnSystem/TurnSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/UnitSpawner/BattleUnitSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/UnitSpawner/BattleUnitSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/UnitSpawner/UnitSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/UnitSpawner/UnitSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DEBUG_SCRIPTS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DEBUG_SCRIPTS/Mockup_BattleState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DEBUG_SCRIPTS/Mockup_BattleState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/UnitDataProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/UnitDataProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/UnitDetails.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/UnitDetails.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIPanels/MainMenuPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIPanels/MainMenuPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/790a43858b4b404fbe02a2b7b4a0d9d615d600/5b/60134346/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Consts/ResourcePaths.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Combat/BattleGameUnit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Combat/GameUnit.cs" root0="FORCE_HIGHLIGHTING" />
@@ -25,11 +107,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/StateMachine/Game/GameBattleState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/StateMachine/Game/PreparationState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/StateMachine/Game/TurnBattleState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/TurnSystem/BattleGrid.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/TurnSystem/BattleModeTurnSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/TurnSystem/TurnHolder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/TurnSystem/TurnSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/UnitSpawner/BattleUnitSpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DEBUG_SCRIPTS/Mockup_BattleState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/EBattleState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/ESceneName.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Extensions/EnumExtensions.cs" root0="FORCE_HIGHLIGHTING" />
@@ -67,11 +149,25 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Mateusz\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Mateusz\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Mateusz\\AppData\\Local\\Symbols\\src&quot;
+    ]
   }
 }</component>
   <component name="RunManager" selected="Standalone Player.UnitTests (batch mode)">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="F:\UnityEditors\2022.1.14f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;F:\UnityProjects\Project-H\Project H&quot; -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="F:\UnityProjects\Project-H\Project H" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="F:\UnityEditors\2022.1.14f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;F:\UnityProjects\Project H\Project-H\Project H&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -119,6 +215,12 @@
       <workItem from="1667685804367" duration="3680000" />
       <workItem from="1667731630180" duration="1783000" />
       <workItem from="1667769176119" duration="2466000" />
+      <workItem from="1691225070583" duration="15901000" />
+      <workItem from="1691310356563" duration="4197000" />
+      <workItem from="1691335950527" duration="598000" />
+      <workItem from="1693929695151" duration="3646000" />
+      <workItem from="1694007385940" duration="3397000" />
+      <workItem from="1694077035705" duration="7106000" />
     </task>
     <servers />
   </component>

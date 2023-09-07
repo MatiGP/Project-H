@@ -1,10 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using Core.Combat.Unit;
 using UnityEngine;
 namespace Core.Combat
 {
-    public class TurnHolder<T> where T : GameUnit
+    public class TurnHolder<T> where T : MonoBehaviour
     {
         private List<T> _turns = new List<T>();
 
@@ -25,7 +24,7 @@ namespace Core.Combat
             }
         }
 
-        public void RemoveFromTurn(T unit)
+        public void RemoveTurn(T unit)
         {
             _turns.Remove(unit);
         }

@@ -5,10 +5,10 @@ using UnityEngine;
 
 namespace Core.TurnSystem
 {
-    public abstract class TurnSystem : MonoBehaviour
+    public abstract class TurnSystem
     {
-        public event Action OnTurnStart;
-        public event Action OnTurnEnd;
+        public Action OnTurnStart;
+        public Action OnTurnEnd;
 
         public abstract void Initialize();
 

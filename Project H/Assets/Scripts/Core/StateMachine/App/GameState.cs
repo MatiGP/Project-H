@@ -14,7 +14,6 @@ namespace Core.StateMachine.States
         
         public override void Enter()
         {
-            Debug.Log($"Entered {typeof(GameState)}");
             _gameStateMachine = new StateMachine();
             _gameStateMachine.Initialize();
             _gameStateMachine.AddState(new AdventureState((int)EGameState.Adventure, _gameStateMachine));
@@ -34,7 +33,7 @@ namespace Core.StateMachine.States
 
         public override void Exit()
         {
-            _gameStateMachine.LeaveState();
+            _gameStateMachine.LeaveCurrentState();
         }
     }
 }

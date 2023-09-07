@@ -8,8 +8,8 @@ namespace UI.UIPanels
 {
     public class MainMenuPanel : UIPanel
     {
-        public event Action OnPlayGame;
-        public event Action OnExitGame;
+        public Action OnPlayGame;
+        public Action OnExitGame;
 
         [SerializeField] private Button _playGameButton = null;
         [SerializeField] private Button _exitGameButton = null;
@@ -38,12 +38,12 @@ namespace UI.UIPanels
 
         private void HandleExitGameButtonPressed()
         {
-            OnPlayGame?.Invoke();
+            OnExitGame?.Invoke();
         }
 
         private void HandlePlayButtonPressed()
         {
-            OnExitGame?.Invoke();
+            OnPlayGame?.Invoke();
         }
     }
 }

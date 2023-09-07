@@ -1,22 +1,26 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Core.TurnSystem;
+using Core.UnitSpawners;
 using UnityEngine;
 
 namespace Core.GameInstance
 {
-    public class BattleModeController : ModeController
+    public class BattleModeController : MonoBehaviour
     {
-        [SerializeField] private BattleModeTurnSystem _battleModeTurnSystem = null;
+        [SerializeField] private BattleGrid _grid = null;
+        [SerializeField] private BattleUnitSpawner _unitSpawner = null;
 
-        public override void Activate()
+        private void Awake()
         {
-            
+            Activate();
         }
 
-        public override void Deactivate()
+
+        public void Activate()
         {
-            
+            _grid.PrepareGrid();
         }
     }
 }
